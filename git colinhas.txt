@@ -1,0 +1,30 @@
+GIT (A intenção desse documento é para que nós iniciantes possamos procurar e quebrar a cabeça antes de ir atras da inteligencia artificial procurar a resposta)
+mkdir = criar uma pasta
+cd = ir para
+git init = cria um repositorio na pagina que voce executou o comando, permitindo que voce faça commits, crie arquivos e branches
+echo = da o comando para o computador imprimir algo
+# = cria um titulo de nivel 1 podendo ter ate 6, ai e so acrescentar mais ####.
+git add . = diz ao Git, monitore todos os arquivos que iram para commit, ele preparava o arquivo para commit. Praticamente commita varios arquivos.
+. = significa todos os arquivos da pasta
+git commit -m "aqui e onde voce escreve o que vai no commit, lembre sempre das boas praticas" =  ele cria o commit e adiciona uma mensagem do que foi feito.
+git remote add origin: cria conexao entre o repositorio remoto e o repositorio local, ai voce usa seu endereço  https://github.com/<seu-usuario>/livvi-social.git
+git push = envia os arquivos do repositorio local para o remoto.
+origin = refere-se ao repositorio remoto que voce conectou ao local
+-u = avisa ao git que toda vez que voce fizer um push voce nao precisa especificar sempre para onde enviar.
+git branch =  mostra todas as branchs que estao ativas no seu repositorio local e marca com * as ativas
+git remote -v = mostrar a URL do repositorio remoto.
+--version = descobrir a versao e se ta instalado algum app especifico que voce queira ex: "git --version"
+-- public=  repositorio sera publico (mas tambem pode privado --private)
+--source=. = usar os arquivos da pasta atual como base para o repositorio
+--remote=origin = usar o repositorio remoto como origin (padrao)
+-- push: faz o push automatico dos seus arquivos para o github
+gh auth login = logar no github usando o Github CLI
+gh auth logout = deslogar
+git remote remove origin =  remover o repositorio remoto origin
+-v = verbose, signifca, detalhado
+git remote -v = mostra o endereço completo do repositorio remoto
+dir = lista o conteúdo de uma pasta (arquivos e subpastas).
+/b (bare format) = mostra só os nomes, um por linha, sem cabeçalhos, datas, tamanhos ou totais.
+git status= saber o status
+git remote set-url origin = Corrige o endereço (URL).
+
